@@ -11,7 +11,7 @@ const router = express.Router();
 
 router.get('/', getMovies);
 
-router.post('/', CreateMovie);
+router.post('/', createMovie);
 
 router.get('/:id', getMovie);
 

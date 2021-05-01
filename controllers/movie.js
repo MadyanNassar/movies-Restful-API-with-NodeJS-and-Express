@@ -20,7 +20,7 @@ export const getMovies = (req, res) => {
 }
 
 // add movie to the list of movies
-export const CreateMovie = (req, res) => {
+export const createMovie = (req, res) => {
     const movie = req.body
     const title = req.body.title;
     const director = req.body.director;
