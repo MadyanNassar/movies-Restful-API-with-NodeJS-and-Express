@@ -1,7 +1,7 @@
 import express from 'express';
 import {
   getMovies,
-  CreateMovie,
+  createMovie,
   getMovie,
   deleteMovie,
   updateMovie,
